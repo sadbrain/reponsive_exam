@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    border: 0px;
+
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.img{
+    height: 50px;
+    width: 50px;
+}
+.container_item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#Contry{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+#Monny{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+a:hover{
+    color:coral;
+}
+.container{
+    margin: auto;
+    width: 95%;
+    background-color: white;
+}
+.container1{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap:49%;
+    border-bottom: 1px solid rgb(85, 81, 81);
+}
+.list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+.container2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 66.8%;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0px;
+}
+.nav_item:last-child{
+    display: none;
+}
+.nav_item:hover{
+    color: coral;
+}
+.icon{
+    display: flex;
+}
+.input{
+    padding: 8px;
+    background-color: rgb(151, 151, 151);
+}
+.icon_item{
+    background-color: rgb(151, 151, 151);
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_body{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    
+}
+.img_body{
+    height: 400px;
+    width: 50%;
+}
+.button{
+    width: 80px;
+    height: 40px;
+    background-color: coral;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(227, 60, 0);
+    font-size: 15px;
+}
+.img_body_item{
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    object-fit: cover;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+.p{
+    font-size: 20px;
+    width: 600px;
+}
+.paragrap{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    gap: 10px;
+}
+.slider {
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    overflow-x: auto;
+    margin: auto;
+}
+
+@media screen and (max-width: 380px) {
+    .header{
+        /* border: 3px solid red; */
+
+    }
+    .container{
+        width: 100%;
+    }
+    .container1{
+        width: 100%;
+        border-bottom: none;;
+    }
+    .container1>.container_item{
+        display: none;
+    }
+
+    .container_item_more{
+        display: block;
+
+    }
+    .container2{
+        background-color: #ccc;
+
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        padding-left: 10px;
+    }
+    .nav_list{
+        gap:0;
+    }
+    .nav_item{
+        font-size: 17px;
+        margin-right: 8px;
+        height: 100%;
+    }
+
+    .nav_item a{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .nav_list .nav_item:last-child{
+        display: block;
+        position: relative;
+        top:0px;
+    }
+    .nav_list .nav_item:last-child:hover .nav_list_doc{
+        display: block;
+
+    }
+    .nav_list_doc{
+        position: absolute;
+        list-style: none;
+        background: #ccc;
+        width: 100px;
+        gap:0;
+        padding-left: 0;
+        display: none;
+        top:110%;
+    }
+    .nav_list_doc .nav_list_doc_item{
+        width: 100%;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+        padding: 5px 0;
+    }
+    .nav_list_doc .nav_list_doc_item a{
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        padding: 0 5px;
+    }
+    .slider{
+        width: 100%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    .paragrap{
+        /* font-size: 10px;
+        width: 100%;
+        margin-right: 50px; */
+        width: 100%;
+         margin-bottom: 30px;
+         margin-top: 30px;
+
+    }
+    .paragrap h1{
+        font-size: 30px;
+        width: 100%;
+
+
+    }
+    .paragrap h2{
+        font-size: 25px;
+        width: 100%;
+
+    }
+    .paragrap p{
+        font-size: 20px;
+        width: 100%;
+
+    }
+
+    .paragrap button{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        
+    
+    }
+    .slider .img_body{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .img_body_item{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+
+    }
+   
+
+}

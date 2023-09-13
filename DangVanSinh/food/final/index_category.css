@@ -1,0 +1,343 @@
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 375px) {
+    .menu{
+        padding-top: 10px;
+
+    }
+    .h3_menu{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        /* margin-left: 30px; */
+        /* text-decoration: none; */
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav_item a{
+        text-decoration: none;
+    }
+    .card_list{
+        padding-top: 20px;
+    }
+    .h3_card_list{
+        text-align: center;
+    }
+    .card_image{
+        padding-top: 10px;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;    
+    }
+    .card_body{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .button{
+        height: 40px;
+        width: 100px;
+        background-color: aqua;
+    }
+    a:hover{
+        color: coral;
+    }
+
+    #i{
+        color: coral;
+    }
+    
+}
+
+@media screen and (min-width: 1920px){
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 20%;
+    }
+    .h3_menu{
+        text-align: center;
+        margin-top: 10px;
+        color: coral;
+        padding:  0px 8px;
+    }
+    .nav{
+        border: 1px solid rgb(142, 139, 139);
+    }
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-left: 30px;
+        text-decoration: none;
+        gap:20px;
+    }
+    a{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+    }
+    #i{
+        margin-right: 20px;
+    }
+    a:hover{
+        color: coral;
+    }
+    .nav_item:first-child{
+        margin-top: 20px;
+    }
+    .nav_item:last-child{
+        margin-bottom: 20px;
+    }
+    .card_list{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 80px;
+    
+    }
+    .card{
+        height: 450px;
+        width: 300px;
+        border: 1px solid rgb(142, 139, 139);
+    }
+    .card_body{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .h3_card_list{
+        text-align: center;
+        margin-top: 10px;
+        color: coral;
+        width: 500px;
+    }
+    .card_title{
+        color: coral;
+    }
+    .card_image{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        
+    }
+    .button{
+        height: 40px;
+        width: 100px;
+    }
+    .card_lists{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .h3{
+        display: flex;
+    }
+    .hr{
+        width: 100%;
+    }
+    hr { 
+        display: block;
+    }
+} */
+*{
+    margin: 0px;
+    border: 0px;
+    /* padding: 0px; */
+}
+
+@media screen and (max-width: 375px) {
+    .menu{
+        padding-top: 10px;
+
+    }
+    .h3_menu{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        /* margin-left: 30px; */
+        /* text-decoration: none; */
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav_item a{
+        text-decoration: none;
+    }
+    .card_list{
+        padding-top: 20px;
+    }
+    .h3_card_list{
+        text-align: center;
+    }
+    .card_image{
+        padding-top: 10px;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;    
+    }
+    .card_body{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .button{
+        height: 40px;
+        width: 100px;
+        background-color: aqua;
+    }
+    a:hover{
+        color: coral;
+    }
+
+    #i{
+        color: coral;
+    }
+    
+}
+
+@media screen and (min-width: 1920px){
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 20%;
+    }
+    .h3_menu{
+        text-align: center;
+        margin-top: 10px;
+        color: coral;
+        padding:  0px 8px;
+    }
+    .nav{
+        border: 1px solid rgb(142, 139, 139);
+    }
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-left: 30px;
+        text-decoration: none;
+        gap:20px;
+    }
+    a{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+    }
+    #i{
+        margin-right: 20px;
+    }
+    a:hover{
+        color: coral;
+    }
+    .nav_item:first-child{
+        margin-top: 20px;
+    }
+    .nav_item:last-child{
+        margin-bottom: 20px;
+    }
+    .card_list{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 80px;
+    
+    }
+    .card{
+        height: 450px;
+        width: 300px;
+        border: 1px solid rgb(142, 139, 139);
+    }
+    .card_body{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .h3_card_list{
+        text-align: center;
+        margin-top: 10px;
+        color: coral;
+        width: 500px;
+    }
+    .card_title{
+        color: coral;
+    }
+    .card_image{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        
+    }
+    .button{
+        height: 40px;
+        width: 100px;
+    }
+    .card_lists{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .h3{
+        display: flex;
+    }
+    .hr{
+        width: 100%;
+    }
+    hr { 
+        display: block;
+        margin-top: 1.2em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 3px;
+        color: rgb(220, 218, 218);
+        opacity: 0.5px;
+    }
+    
+}
+    
+
+
+
+
+

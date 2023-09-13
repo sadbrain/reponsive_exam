@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 8px;
+    font-size: 15px;
+}
+h2{
+    font-size: 25px;
+}
+
+.Form_contain {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    /* margin-left: 20px; */
+}
+.form-item {
+    margin-top: 32px;
+    border: 1px solid  rgb(198, 191, 191);
+    position: absolute;
+    height: 280px;
+    width: 500px;
+}
+.form-item-one {
+    flex-direction: column;
+}
+.form-item-two {
+    display: flex;
+    margin:5px;
+}
+.form_cart table {
+    width: 450px ;
+    height: 150px;
+    
+}
+
+.form_cart { 
+    margin-top: 32px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(198, 191, 191);
+    height: 280px;
+    width: 500px;
+}
+.form_cart table tr {
+    background-color: rgb(215, 214, 213);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+.form-item-three #button {
+    margin-left: 20px;
+} 
+#button {
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+}
+.div_button #button {
+    margin-top: 20px;
+}
+td {
+    margin-left: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 45px;
+}
+tr{
+    border-bottom: 5px solid white;
+}
+.paragrap{
+    margin-left: 15px;
+}
+@media screen and (max-width: 400px) {
+    .Form_contain{
+        display: flex;
+        flex-wrap: wrap;  /* tự động chuyển sang hàng mới khi không đủ chỗ */
+    }
+    .form-item-two {
+        background-color:white;
+        display: table-row;   /* 1 phần tử sẽ hiển thị 1 dòng */
+    }
+    .form-item {
+        height: 410px;  /* chiều cao của khung */
+        position: static; /* Nằm theo vị trí mặc định và không ghi đè lên phần trên*/
+
+    }
+    .form_cart{ /* tô màu và đưa nội dung về bên trái */
+        margin-left: 0px;
+    }
+    .form_cart table tr td {   /* Căn chỉnh lại độ ngang của table */
+        margin-top: 10px;
+        width: 250px;   
+        
+    }
+    .form_cart table {  /* Căn chỉnh lại độ ngang của table */
+        width: 250px ;
+        height: 150px;
+        
+    }
+}
